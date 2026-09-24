@@ -38,7 +38,8 @@ END
 ```
 
 ## OUTPUT
-<img width="868" height="643" alt="image" src="https://github.com/user-attachments/assets/26ba2ae4-5465-403c-8b70-83fc83a67032" />
+<img width="814" height="191" alt="image" src="https://github.com/user-attachments/assets/1dda4fcb-16e7-401b-9feb-96a5261ed646" />
+
 
 
 ## RESULT
