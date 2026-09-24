@@ -1,4 +1,4 @@
-<img width="868" height="643" alt="image" src="https://github.com/user-attachments/assets/d804f7b1-d8cb-4e84-916f-e422748146c0" /># Square-Cube-of-a-number-using-8051
+
 # 8051 Square  Program
 
 ## AIM
