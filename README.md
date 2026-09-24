@@ -40,7 +40,9 @@ CALCULATION
 ```
 
 ## OUTPUT
-<img width="984" height="592" alt="image" src="https://github.com/user-attachments/assets/6a901278-b07e-47e6-8361-b27f45d403a3" />
+
+<img width="984" height="592" alt="image" src="https://github.com/user-attachments/assets/010b420f-44c2-4dc1-aa22-813cbf0a5327" />
+
 
 
 
@@ -78,7 +80,8 @@ MOV @R0,A
 END
 
 CALCULATION
-<img width="1568" height="1234" alt="image" src="https://github.com/user-attachments/assets/87ac4110-2cd7-4da8-8cce-965708412d66" />
+
+<img width="1568" height="1234" alt="image" src="https://github.com/user-attachments/assets/81e6f611-1dda-416d-a764-d8b0e41d2a1d" />
 
 
 
