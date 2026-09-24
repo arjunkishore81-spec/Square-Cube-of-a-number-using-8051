@@ -15,17 +15,19 @@ To write and execute an Assembly language program for finding the square of a gi
 4. The output square value is stored in Port 2 (P2).
 
 ## PROGRAM
-ORG 0000H
-MOV R0, #30H     
-MOV A, @R0      
-MOV R1, A         
-MOV A, #01H     
-FACT:
-MOV B, R1        
-MUL AB           
-DJNZ R1, FACT    
-MOV 31H, A       
+ORG 00H
+MOV R0,#50H
+MOV A,@R0
+MOV B,A
+MUL AB
+INC R0
+MOV @R0,A
 END
+
+CALCULATION
+<img width="1556" height="1146" alt="image" src="https://github.com/user-attachments/assets/9c8c4fc1-5a9c-4eef-974a-303c2b35e914" />
+
+
 
 
 
@@ -38,7 +40,8 @@ END
 ```
 
 ## OUTPUT
-<img width="814" height="191" alt="image" src="https://github.com/user-attachments/assets/1dda4fcb-16e7-401b-9feb-96a5261ed646" />
+<img width="984" height="592" alt="image" src="https://github.com/user-attachments/assets/6a901278-b07e-47e6-8361-b27f45d403a3" />
+
 
 
 
@@ -61,15 +64,22 @@ To write and execute an Assembly language program for finding the cube of a give
 4. The output cube value is stored in a memory location.
 
 ## PROGRAM
-MOV A, P0
-MOV B, A
+ORG 00H
+MOV R0,#50H
+MOV A,@R0
+MOV B,A
 MUL AB
-MOV R0, A
-MOV A, R0
-MOV B, P0
+MOV B,@R0
 MUL AB
-MOV P2, A
+INC R0
+MOV @R0,A
+INC R0
+MOV @R0,A
 END
+
+CALCULATION
+<img width="1568" height="1234" alt="image" src="https://github.com/user-attachments/assets/87ac4110-2cd7-4da8-8cce-965708412d66" />
+
 
 
 
@@ -82,7 +92,8 @@ END
 
 
 ## OUTPUT
-<img width="1562" height="1236" alt="image" src="https://github.com/user-attachments/assets/0b8d0ce9-0902-4140-9200-dc0d2c277db1" />
+<img width="993" height="719" alt="image" src="https://github.com/user-attachments/assets/b6f7caf0-a68f-470a-9aaa-16484dc2842a" />
+
 
 ## RESULT
 Thus, the cube of the given data is calculated using 8051 Keil.
